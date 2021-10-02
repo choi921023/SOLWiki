@@ -1,0 +1,9 @@
+Name: libecpg_compat
+Description: PostgreSQL libecpg_compat library
+Url: http://www.postgresql.org/
+Version: 12.2
+Requires: 
+Requires.private: libecpg libpgtypes
+Cflags: -I/Users/chh/opt/anaconda3/envs/SOLWiki/include
+Libs: -L/Users/chh/opt/anaconda3/envs/SOLWiki/lib -lecpg_compat
+Libs.private: -L/Users/chh/opt/anaconda3/envs/SOLWiki/lib -lm

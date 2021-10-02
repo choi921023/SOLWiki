@@ -1,0 +1,9 @@
+Name: libecpg
+Description: PostgreSQL libecpg library
+Url: http://www.postgresql.org/
+Version: 12.2
+Requires: 
+Requires.private: libpq libpgtypes
+Cflags: -I/Users/chh/opt/anaconda3/envs/SOLWiki/include
+Libs: -L/Users/chh/opt/anaconda3/envs/SOLWiki/lib -lecpg
+Libs.private: -L/Users/chh/opt/anaconda3/envs/SOLWiki/lib -lm

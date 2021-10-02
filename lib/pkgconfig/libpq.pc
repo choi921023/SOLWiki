@@ -1,0 +1,9 @@
+Name: libpq
+Description: PostgreSQL libpq library
+Url: http://www.postgresql.org/
+Version: 12.2
+Requires: 
+Requires.private: 
+Cflags: -I/Users/chh/opt/anaconda3/envs/SOLWiki/include
+Libs: -L/Users/chh/opt/anaconda3/envs/SOLWiki/lib -lpq
+Libs.private: -L/Users/chh/opt/anaconda3/envs/SOLWiki/lib -lssl -lcrypto -lgssapi_krb5 -lm
